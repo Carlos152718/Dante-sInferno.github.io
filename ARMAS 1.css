@@ -1,0 +1,50 @@
+body {
+    background-image: url('danteeee.webp');
+    background-size: cover;
+    background-position: center;
+    font-family: serif;
+    color: white;
+    text-align: center;
+}
+.titulo {
+    font-size: 3rem;
+    margin-top: 20px;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+.menu button {
+    background-color: #f4c542;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+.contenido {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+.caja {
+    background-color: rgba(255, 204, 102, 0.9);
+    padding: 15px;
+    border-radius: 10px;
+    color: black;
+    text-align: left;
+    width: 40%;
+}
+img {
+    width: 90px;
+    height: auto;
+}
+a
+{
+    color: red;
+}
